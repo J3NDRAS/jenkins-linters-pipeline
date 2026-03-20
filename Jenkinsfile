@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Cppcheck (MISRA)') {
             steps {
-                sh 'cppcheck --addon=misra main.c || true'
+                sh 'cppcheck --addon=misra --enable=all main.c || true'
             }
         }
         stage('Clang-owy') {

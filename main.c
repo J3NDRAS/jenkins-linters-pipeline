@@ -6,7 +6,7 @@ int main(void) {
     
     /* Błąd logiczny: przypisanie '=' zamiast porównania '==' */
     if (x = 10) { 
-        printf("Hello World\n");
+        printf("Jedrzej Stachor\n");
     }
     
     return 0;
